@@ -1,0 +1,9 @@
+#!bin/bash
+
+  read -p "What would you like to start? :" system
+
+  sudo systemctl start $system
+
+  sudo systemctl enable $system
+
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+downloadApache () {
+wget https://www.free-css.com/assets/files/free-css-templates/download/page252/scenic.zip
+unzip scenic.zip
+mv Scenic /var/www/html/
+
+}

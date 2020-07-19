@@ -1,0 +1,19 @@
+#######################################################
+
+1. Create a new CENTOS 7 machine in Digital Ocean with similar customaztion. Avoid setting up a password, 
+instead use your SSH PUBLIC key to access the remote machine. 
+
+2. Install and setup ZSH and customize it to your liking.(Plugins & Themes). 
+Look into another useful plugin you haven't been yet introduced to.
+
+3. Write a forloop that will take list of names in users.txt file 
+and create user for each user. Set password "SecuR$PassWoRD" for each user. 
+
+4. Craate 5 permanent aliases that will be useful to you.
+
+5. Watch the video below about API(s) and do little research as we will get into it on our next session.  
+https://www.youtube.com/watch?v=7YcW25PHnAA
+
+5. Push your code to github and send the link to our Slack channel.
+ 
+ #######################################################

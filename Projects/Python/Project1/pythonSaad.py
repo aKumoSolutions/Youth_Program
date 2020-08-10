@@ -1,4 +1,8 @@
+import json
 
+gender = input("Please enter your gender(F,M) ")
+Male = ['M', 'm', 'male', 'boy', 'man']
+Female = ['F', 'f', 'female', 'girl', 'woman']
 
 
 def add_dict(name, age, email,):

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
+
+/* p {
+    text-align: left;
+    font-style: italic;
+}
+
+.small_business {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: "Edu SA Beginner", cursive;
+
+} */
+
+.navigation {
+    position: sticky;
+    top: 0;
+    background-color: rgba(245, 250, 255, 0.5);
+    backdrop-filter: blur(16px);
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-links a {
+    padding: 0 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.socials img {
+    width: 20px;
+}
+
+.socials a {
+    padding: 0 3px;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: blue;
+}
+
+.header {
+    /* margin: 100px 30px 0 40px; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.header button {
+    background-color: fuchsia;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 9999px;
+    transition-duration: 500ms;
+}
+
+.header button:hover {
+    background-color: aquamarine;
+    color: #000;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Lato", sans-serif;
+}

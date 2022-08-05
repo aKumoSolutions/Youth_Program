@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700;900&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+/* ---------------------------------- */
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Literata', serif; */
+    font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
+    margin: 0;
+   padding: 0;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.section_heading {
+    font-size: 4rem;
+    background: linear-gradient(180deg, #5D0000 24.93%, rgba(16, 2, 2, 0.2) 83.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.colorhover:hover{
+    transition: .3s ease-in;
+    color: #5D0000 !important;
+    /* font-weight: 500; */
+}
+
+/* ----------------------------- */
+
+nav {
+    background-color: rgba(0,0,0,.5);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky ;
+    top: 0;
+    height: 2rem;
+    padding: 0 .5rem;
+    z-index: 99;
+}
+
+.background_image{
+    background-image: url("/assets/painting.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+}
+
+h2 {
+    color:#FF8F88;
+    font-weight: 500;
+    font-size: .85rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.links {
+
+    font-size: .75rem;
+    line-height: 1;
+    gap: .5rem;
+
+
+}
+
+.links a {
+    color:#FF8F88;
+    padding: 0 .5rem;
+}
+
+.socials {
+    padding-top: .25rem;
+}
+
+.socials a:first-child {
+    margin-top: .5rem;
+   margin-right: .5rem;
+}
+
+
+/* ---------------------------------- */
+
+section.intro {
+    height: 100vh;
+    width: 100vw;
+    margin-top: -2rem;
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+    position: relative;
+}
+
+.titles {
+    transition: 2s all ease;
+    padding: 6rem 0 ;
+    color:#FF8F88;
+    font-weight: 500;
+    line-height: 6rem;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+.down_arrow svg {
+    width: 4rem;
+    height: 2rem;
+}
+
+.down_arrow {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ---------------------------------- */
+section.about {
+    transition: 2s all ease;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #102436 2.46%, #03060A 50.05%);
+    z-index: 1;
+    position: relative;
+}
+
+.about p {
+    color: #9FA4A3;
+    padding: 0 2rem;
+    margin-top: -2.5rem;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+    height: 24rem;
+    
+}
+
+/* ---------------------------------- */
+
+section.works {
+    height: 100vh;
+    width: 100%;
+    background-color: #03060A;
+    position: relative;
+}
+
+section.works h2 {
+    text-align: center;
+}
+
+.eclipse {
+    height: 42rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.works p {
+    color: #9FA4A3;
+    font-size: 1.5rem;
+}
+
+.part img {
+    width: 20rem;
+    opacity: .40;
+    border-radius: 1rem;
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ----------------------------------------------- */
+
+section.contacts {
+    transition: 2s all ease;
+    height: 100vh;
+    width: 100vw;
+    background:  #03060A;
+    z-index: 1;
+    position: relative;
+}
+
+section.contacts h2{
+    text-align:right;
+}
+section.contacts p{
+    color: #313E44;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.connect{
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 50vw;
+}
+section.contacts h3{
+    text-align: center;
+    position:relative;
+background: #5D0000; 
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
